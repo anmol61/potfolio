@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+main
+{
+    margin-top: 100px;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgb(11, 12, 12);
+    color:white;
+    font-weight: 500;
+}
+.pic img
+{
+    border-radius: 40%;
+    margin-left: 30px;
+    
+}
+.about
+{
+    margin-right: 10px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    width: 40vw;
+    flex-wrap: wrap;
+}
+.about span
+{
+    font-weight: 630;
+}
+.about h1
+{
+    color: rgb(181, 144, 112);
+    font-weight:700 ;
+    flex-wrap: wrap;
+    
+}
+
+
+/* responsive design; */
+
+
+@media only screen and (max-width: 770px)
+{
+    .pic img
+    {
+        width: 200px;
+        height: auto;
+    }
+    .about
+    {
+        flex-wrap: wrap;
+    }
+}

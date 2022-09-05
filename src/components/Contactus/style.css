@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.userData
+{
+    background: url(../Skills/bg2.jpg);
+    display: grid;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+.head h1
+{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(70, 180, 70);
+    margin-bottom: 30px;
+}
+.ipt
+{
+    padding: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    border-bottom: 3px solid rgb(46, 244, 46);
+}
+.lbl
+{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(194, 194, 160);
+    margin-bottom: 5px;
+   
+}
+#message
+{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 5px;
+    background-color: lightgreen;
+    color: rgb(49, 61, 61);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover
+{
+    background-color: rgb(31, 220, 31);
+}

@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+#skills {
+    
+    padding: 100px 50px;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .section_info h1
+  {
+    text-align: center;
+  }
+  .skills_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(45, 52, 54);
+    padding: 50px;
+  }
+  .skill_left {
+    flex-basis: 50%;
+  
+    text-align: justify;
+  }
+  .skill_left p {
+    font-size: 20px;
+  }
+  .skill_right {
+    flex-basis: 50%;
+  }
+  
+  progress {
+    width: 80%;
+  }
+  .progress_div {
+    width: 70%;
+    margin: auto;
+  }
+  .progress_div p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: justify;
+  }
+  
+
+  /* Responsive Design; */
+
+  @media only screen and (max-width: 770px)
+  {
+    .progress_div {
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+      }
+      .progress {
+        width: 80%;
+      }
+      .progress_div p {
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-left: 20px;
+        text-align: justify;
+      }
+    
+      .skill_left {
+        flex-basis: 100%;
+      }
+      .skill_right {
+        flex-basis: 100%;
+      }
+  }
