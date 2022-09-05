@@ -15,6 +15,10 @@ main
     color:white;
     font-weight: 500;
 }
+img
+{
+    width:"100px"
+        height:"200px";
 .pic img
 {
     border-radius: 40%;
