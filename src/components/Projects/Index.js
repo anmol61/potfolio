@@ -85,7 +85,7 @@ const Projects = () => {
             </a>
           </span>
           <span>
-            https://anmol-potfolio.vercel.app/" target="_blank">
+           <a href= "https://anmol-potfolio.vercel.app/" target="_blank">
               Live Demo
             </a>
           </span>
