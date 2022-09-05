@@ -31,7 +31,7 @@ const Projects = () => {
             </a>
           </span>
           <span>
-            <a href="https://food-recipies-by-abhinit.vercel.app/" target="_blank">
+            <a href="https://delicious-food-liart.vercel.app/" target="_blank">
               Live Demo
             </a>
           </span>
