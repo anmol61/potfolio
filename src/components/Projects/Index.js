@@ -80,7 +80,7 @@ const Projects = () => {
             projects,experiences,skills and many more things.
           </p> */}
           <span>
-            <a href="https://github.com/abhinit1999/portfolio" target="_blank">
+            <a href="https://github.com/anmol61/potfolio" target="_blank">
               Github
             </a>
           </span>
